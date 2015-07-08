@@ -1,0 +1,5 @@
+# Ignore list
+node_modules
+Archive.zip
+config.js
+*.log

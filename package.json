@@ -1,0 +1,15 @@
+{
+  "name": "chatty-s3",
+  "version": "1.0.0",
+  "description": "s3 bucket notifier, ping other server when an item in s3 is uploaded",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.37",
+    "superagent": "^1.2.0"
+  }
+}
