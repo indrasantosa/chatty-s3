@@ -17,7 +17,7 @@ exports.handler = function(event, context) {
 		var notifyUrl = config.notifyUrl;
 
 		// Define data that you want to send to the other side
-		var objectPublicUrl = 'http://'+ region + '.' + 'amazonaws.com/' + bucket + '/' + key;
+		var objectPublicUrl = 'https://s3-'+ region + '.' + 'amazonaws.com/' + bucket + '/' + key;
 		var data = {
 			status: 'success',
 			data: {
